@@ -17,7 +17,7 @@ My div container
     <div id="fruits"></div>
 JS Code
 
-    var myElement = new DOMBuilder();
+    var myElement = new CGBuilder();
     myElement.ele('ul', {class: 'delicious'})
                   .ele('li', 'apple')
                   .ele('li')
